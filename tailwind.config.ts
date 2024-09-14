@@ -7,10 +7,33 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: {
+          DEFAULT: "#012340"
+        },
+        primary: {
+          DEFAULT: "#025959",
+        },
+        secondary: {
+          DEFAULT: "#027333"
+        },
+        tirtiary: {
+          DEFAULT: "#03A63C"
+        },
+        quaternary: {
+          DEFAULT: "#04D939"
+        },
       },
     },
   },
