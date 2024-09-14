@@ -1,0 +1,19 @@
+/* [project]/app/styles/animation.css [app-client] (css) */
+.nav-logo {
+  text-shadow: 0 0 3.5px #e2e8f0;
+  animation: 1.75s cubic-bezier(.77, 0, .175, 1) turn-white;
+}
+
+@keyframes turn-white {
+  0% {
+    text-shadow: 0 0 #e2e8f0;
+    color: #94a3b8;
+  }
+
+  100% {
+    text-shadow: 0 0 3.5px #e2e8f0;
+    color: #e2e8f0;
+  }
+}
+
+/*# sourceMappingURL=app_styles_animation_b52d8e.css.map*/

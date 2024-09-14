@@ -493,7 +493,12 @@ img, video {
 
 .bg-background {
   --tw-bg-opacity: 1;
-  background-color: rgb(1 35 64 / var(--tw-bg-opacity));
+  background-color: rgb(23 32 38 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 .p-8 {
@@ -525,19 +530,19 @@ img, video {
   line-height: 1.625;
 }
 
-.text-secondary {
+.text-primary {
   --tw-text-opacity: 1;
-  color: rgb(2 115 51 / var(--tw-text-opacity));
+  color: rgb(95 205 217 / var(--tw-text-opacity));
 }
 
-.text-quaternary {
+.text-primary-darker {
   --tw-text-opacity: 1;
-  color: rgb(4 217 57 / var(--tw-text-opacity));
+  color: rgb(2 115 115 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-slate-400 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .antialiased {
@@ -559,13 +564,28 @@ img, video {
   background-color: #0273334d;
 }
 
+.selection\:bg-teal-300 ::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(94 234 212 / var(--tw-bg-opacity));
+}
+
 .selection\:text-secondary ::selection {
   --tw-text-opacity: 1;
   color: rgb(2 115 51 / var(--tw-text-opacity));
 }
 
+.selection\:text-teal-900 ::selection {
+  --tw-text-opacity: 1;
+  color: rgb(19 78 74 / var(--tw-text-opacity));
+}
+
 .selection\:bg-secondary\/30::selection {
   background-color: #0273334d;
+}
+
+.selection\:bg-teal-300::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(94 234 212 / var(--tw-bg-opacity));
 }
 
 .selection\:text-secondary::selection {
@@ -573,9 +593,9 @@ img, video {
   color: rgb(2 115 51 / var(--tw-text-opacity));
 }
 
-.hover\:text-quaternary:hover {
+.selection\:text-teal-900::selection {
   --tw-text-opacity: 1;
-  color: rgb(4 217 57 / var(--tw-text-opacity));
+  color: rgb(19 78 74 / var(--tw-text-opacity));
 }
 
 @media (width >= 640px) {

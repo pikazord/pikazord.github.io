@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["[project]/app/styles/animation.css"],"sourcesContent":[".nav-logo {\n\ttext-shadow: 0px 0px 3.5px #e2e8f0;\n\tanimation: turn-white 1.75s cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n\n@keyframes turn-white {\n\t0% {\n\t\ttext-shadow: 0px 0px 0px #e2e8f0;\n\t\tcolor: #94a3b8;\n\t}\n\n\t100% {\n\t\ttext-shadow: 0px 0px 3.5px #e2e8f0;\n\t\tcolor: #e2e8f0;\n\t}\n}"],"names":[],"mappings":"AAAA;;;;;AAMA"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

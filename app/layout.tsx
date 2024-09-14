@@ -1,20 +1,8 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Sidenav from "./components/Sidenav";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import "./styles/globals.css";
+import "./styles/animation.css";
+import Navbar from "../views/components/Navbar";
+import Footer from "../views/components/Footer";
 
 export const metadata: Metadata = {
   title: "PikaZord",
@@ -29,11 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased leading-relaxed bg-background text-white  selection:text-secondary selection:bg-secondary/30`}
+        className={`bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 font-nunito`}
       >
         <Navbar />
-        <Sidenav />
-        {children}
+        {/* <Sidenav /> */}
+        <div className="mt-[52px]">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
