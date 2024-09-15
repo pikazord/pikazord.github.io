@@ -4,6 +4,39 @@
   animation: 1.75s cubic-bezier(.77, 0, .175, 1) turn-white;
 }
 
+@property --border-gradient-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+.glow {
+  --outer-radius: .5rem;
+  --border-size: 1px;
+  --inner-radius: calc(var(--outer-radius)  - var(--border-size));
+  background-image: conic-gradient(from var(--border-gradient-angle) at 50% 50%, transparent, #5eead4 14%, transparent 17%);
+  border-radius: var(--outer-radius);
+  background-size: contain;
+  padding: var(--border-size);
+  animation-name: buttonBorderSpin;
+  animation-play-state: running;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  max-width: 100%;
+}
+
+@keyframes buttonBorderSpin {
+  0% {
+    --border-gradient-angle: 0turn;
+  }
+
+  100% {
+    --border-gradient-angle: 1turn;
+  }
+}
+
 @keyframes turn-white {
   0% {
     text-shadow: 0 0 #e2e8f0;

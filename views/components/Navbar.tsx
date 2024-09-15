@@ -5,7 +5,7 @@ import Logo from './shared/Logo'
 
 export default function Navbar() {
   return (
-    <div className='fixed top-0 w-full z-[99] py-2 bg-slate-900'>
+    <div className='fixed top-0 w-full z-[99] py-4 bg-slate-900'>
       <div className='container flex justify-between '>
         <Link href={'/'}>
           <Logo className='nav-logo hidden sm:block' />

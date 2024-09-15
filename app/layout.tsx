@@ -21,7 +21,7 @@ export default function RootLayout({
       >
         <Navbar />
         {/* <Sidenav /> */}
-        <div className="mt-[52px] mb-28">
+        <div className="mt-[68px] mb-28">
           {children}
         </div>
         <Footer />
