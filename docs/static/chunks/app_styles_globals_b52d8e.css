@@ -438,6 +438,10 @@ img, video {
   display: inline-flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
 }
@@ -512,6 +516,10 @@ img, video {
 
 .flex-nowrap {
   flex-wrap: nowrap;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-end {
@@ -755,6 +763,10 @@ img, video {
 
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .leading-none {
@@ -1054,6 +1066,10 @@ a:focus-visible {
 @media (width >= 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:text-2xl {
