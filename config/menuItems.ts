@@ -1,20 +1,20 @@
 const menuItems = [
   {
     label: "Services",
-    href: "#services",
+    href: "#services"
   },
   {
     label: "About",
-    href: "#about",
+    href: "#about"
   },
   {
     label: "Contact Us",
-    href: "#contact",
+    href: "#contact"
   },
   {
     label: "Blog",
-    href: "/",
-  },
-]
+    href: "/blog"
+  }
+];
 
-export default menuItems
+export default menuItems;
