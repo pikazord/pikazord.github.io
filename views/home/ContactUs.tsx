@@ -20,7 +20,7 @@ export default function ContactUs() {
     };
 
     return (
-        <section className="max-h-max mt-16">
+        <section className="max-h-max mt-16" id="contact-us">
             <div className="container flex justify-between  h-full">
                 <div className="border-r border-r-white w-[50%] max-h-full">
                     <Heading text='Get In Touch' />
