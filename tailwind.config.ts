@@ -15,20 +15,27 @@ const config: Config = {
     },
     extend: {
       colors: {
-        black: "#121417",
         background: "hsl(var(--background))",
-        gray: {
-          5: "#25272b"
-        },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))"
+          DEFAULT: "#9EFF00",
+          60: '#B1FF33',
+          70: "#C5FF66",
+          80: "#D8FF99",
+          90: "#ECFFCC",
+          95: "#F5FFE5",
+          97: "#F9FFF0",
+          99: "#FDFFFA",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))"
+          DEFAULT: "#E6E6E6",
+          60: "#98989A",
+          40: "#656567",
+          35: "#59595A",
+          30: "#4C4C4D",
+          20: "#333333",
+          15: "#262626",
+          10: "#191919"
         },
-        foreground: "hsl(var(--foreground))",
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))"

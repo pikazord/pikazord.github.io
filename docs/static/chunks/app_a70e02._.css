@@ -1,3 +1,25 @@
+@import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";
+/* [project]/app/barlow_7ea53ad9.module.css [app-client] (css) */
+@font-face {
+  font-family: __barlow_7ea53a;
+  src: url("../media/Barlow_Regular-s.p.ebb06cdb.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: __barlow_Fallback_7ea53a;
+  src: local(Arial);
+  ascent-override: 103.13%;
+  descent-override: 20.63%;
+  line-gap-override: 0.0%;
+  size-adjust: 96.96%;
+}
+
+.barlow_7ea53ad9-module__d4HX3a__className {
+  font-family: __barlow_7ea53a, __barlow_Fallback_7ea53a;
+}
+
+
 /* [project]/app/styles/globals.css [app-client] (css) */
 *, :before, :after {
   box-sizing: border-box;
@@ -1011,4 +1033,57 @@ a:focus-visible {
   }
 }
 
-/*# sourceMappingURL=app_styles_globals_b52d8e.css.map*/
+
+/* [project]/app/styles/animation.css [app-client] (css) */
+.nav-logo {
+  text-shadow: 0 0 3.5px #e2e8f0;
+  animation: 1.75s cubic-bezier(.77, 0, .175, 1) turn-white;
+}
+
+@property --border-gradient-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+.glow {
+  --outer-radius: .5rem;
+  --border-size: 1px;
+  --inner-radius: calc(var(--outer-radius)  - var(--border-size));
+  background-image: conic-gradient(from var(--border-gradient-angle) at 50% 50%, transparent, #5eead4 14%, transparent 17%);
+  border-radius: var(--outer-radius);
+  background-size: contain;
+  padding: var(--border-size);
+  animation-name: buttonBorderSpin;
+  animation-play-state: running;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  max-width: 100%;
+}
+
+@keyframes buttonBorderSpin {
+  0% {
+    --border-gradient-angle: 0turn;
+  }
+
+  100% {
+    --border-gradient-angle: 1turn;
+  }
+}
+
+@keyframes turn-white {
+  0% {
+    text-shadow: 0 0 #e2e8f0;
+    color: #94a3b8;
+  }
+
+  100% {
+    text-shadow: 0 0 3.5px #e2e8f0;
+    color: #e2e8f0;
+  }
+}
+
+
+/*# sourceMappingURL=app_a70e02._.css.map*/
