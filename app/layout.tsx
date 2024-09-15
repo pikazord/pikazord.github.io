@@ -17,11 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 font-nunito`}
+        className={`bg-slate-900 leading-relaxed text-slate-300 antialiased selection:bg-teal-300 selection:text-teal-900 font-nunito`}
       >
         <Navbar />
         {/* <Sidenav /> */}
-        <div className="mt-[52px]">
+        <div className="mt-[52px] mb-28">
           {children}
         </div>
         <Footer />

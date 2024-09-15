@@ -1,5 +1,6 @@
 import { Button } from "@/views/components/shared/Button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/views/components/shared/Card";
+import Heading from "@/views/components/shared/Heading";
 import React from "react";
 
 export default function page() {
@@ -22,6 +23,8 @@ export default function page() {
           <Button>Action</Button>
         </CardFooter>
       </Card>
+      <Heading text="Services" />
+      {/* <ServiceCard /> */}
     </div>
   );
 }

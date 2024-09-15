@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <div className='fixed top-0 w-full z-[99] py-2 bg-slate-900'>
       <div className='container flex justify-between '>
-        <Logo className='nav-logo hidden sm:block' />
+        <Link href={'/'}>
+          <Logo className='nav-logo hidden sm:block' />
+        </Link>
         <div className='flex space-x-4 justify-center items-center'>
           {
             menuItems.map(menuItem => {
