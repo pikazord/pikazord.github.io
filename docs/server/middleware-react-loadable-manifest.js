@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\n  \"views/home/AboutUs.tsx -> ./components/LottiePlayer\": {\n    \"id\": \"views/home/AboutUs.tsx -> ./components/LottiePlayer\",\n    \"files\": [\n      \"static/chunks/node_modules__pnpm_309372._.js\",\n      \"static/chunks/views_home_components_LottiePlayer_tsx_4b837c._.js\",\n      \"static/chunks/views_home_components_LottiePlayer_tsx_ea9258._.js\"\n    ]\n  }\n}"

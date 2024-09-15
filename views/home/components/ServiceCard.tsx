@@ -4,7 +4,7 @@ import React from 'react'
 export default function ServiceCard({ title, description }: { title: string, description: string }) {
 	return (
 		<div className='glow'>
-			<Card className='border-teal-900 border shadow shadow-teal-300/10 text-balance min-h-full'>
+			<Card className='text-balance min-h-full'>
 				<CardHeader>
 					<CardTitle className='text-nowrap'>
 						<p>

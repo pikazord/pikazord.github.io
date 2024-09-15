@@ -11,10 +11,10 @@ export default function Footer() {
           <Link href={"https://github.com/pikazord"} target="_blank">
             <GitHubLogoIcon width="24" height="24" />
           </Link>
-          <Link href={""}>
+          <Link href={"https://discord.gg/UpwqrqNE5x"} target="_blank">
             <FaDiscord width="24" height="24" />
           </Link>
-          <Link href={""}>
+          <Link href={"https://www.linkedin.com/in/yeasir-hossain"} target="_blank">
             <LinkedInLogoIcon width="24" height="24" />
           </Link>
         </div>
