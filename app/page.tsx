@@ -1,3 +1,5 @@
+"use client";
+
 import { MailerContext } from "@/contexts/MailerContext";
 import Banner from "@/views/home/Banner";
 import ContactUs from "@/views/home/ContactUs";

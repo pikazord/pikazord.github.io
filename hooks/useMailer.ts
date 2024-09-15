@@ -1,5 +1,6 @@
+"use client"
+
 import nodemailer from "nodemailer";
-import SMTPTransport from "nodemailer/lib/smtp-transport";
 import React, { useState } from "react";
 
 interface ContactData {
@@ -16,7 +17,7 @@ const transporter = nodemailer.createTransport({
         user: process.env.NEXT_PUBLIC_SMTP_USER as string,
         pass: process.env.NEXT_PUBLIC_SMTP_PASSWORD as string,
     },
-} as SMTPTransport.Options);
+});
 
 
 export default function useMailer() {

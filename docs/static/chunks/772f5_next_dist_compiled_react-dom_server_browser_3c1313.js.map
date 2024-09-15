@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/react-dom/server.browser.js"],"sourcesContent":["'use strict';\n\nvar l, s;\nif (process.env.NODE_ENV === 'production') {\n  l = require('./cjs/react-dom-server-legacy.browser.production.min.js');\n  s = require('./cjs/react-dom-server.browser.production.min.js');\n} else {\n  l = require('./cjs/react-dom-server-legacy.browser.development.js');\n  s = require('./cjs/react-dom-server.browser.development.js');\n}\n\nexports.version = l.version;\nexports.renderToString = l.renderToString;\nexports.renderToStaticMarkup = l.renderToStaticMarkup;\nexports.renderToNodeStream = l.renderToNodeStream;\nexports.renderToStaticNodeStream = l.renderToStaticNodeStream;\nexports.renderToReadableStream = s.renderToReadableStream;\nif (s.resume) {\n  exports.resume = s.resume;\n}\n"],"names":[],"mappings":";;AAAA;AAEA,IAAI,GAAG;AACP;;OAGO;IACL;IACA;AACF;AAEA,QAAQ,OAAO,GAAG,EAAE,OAAO;AAC3B,QAAQ,cAAc,GAAG,EAAE,cAAc;AACzC,QAAQ,oBAAoB,GAAG,EAAE,oBAAoB;AACrD,QAAQ,kBAAkB,GAAG,EAAE,kBAAkB;AACjD,QAAQ,wBAAwB,GAAG,EAAE,wBAAwB;AAC7D,QAAQ,sBAAsB,GAAG,EAAE,sBAAsB;AACzD,IAAI,EAAE,MAAM,EAAE;IACZ,QAAQ,MAAM,GAAG,EAAE,MAAM;AAC3B"}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

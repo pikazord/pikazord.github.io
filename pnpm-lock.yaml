@@ -57,6 +57,9 @@ importers:
       '@types/react-dom':
         specifier: ^18
         version: 18.3.0
+      components:
+        specifier: link:@types/@react-email/components
+        version: link:@types/@react-email/components
       eslint:
         specifier: ^8
         version: 8.57.0
