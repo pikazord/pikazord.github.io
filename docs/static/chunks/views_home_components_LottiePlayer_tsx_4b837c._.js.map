@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/views/home/components/LottiePlayer.tsx"],"sourcesContent":["'use client'\n\nimport React from 'react'\nimport { Player } from '@lottiefiles/react-lottie-player';\n\nexport default function LottiePlayer() {\n\treturn (\n\t\t<Player\n\t\t\tautoplay\n\t\t\tloop\n\t\t\tsrc=\"/data/Animation - 1726424142023.json\"\n\t\t\tstyle={{ height: '100%', width: '100%' }}\n\t\t>\n\t\t</Player>\n\n\t)\n}\n"],"names":[],"mappings":";;;;;;AAAA;;;AAKe,SAAS;IACvB,qBACC,6TAAC,4SAAA,CAAA,SAAM;QACN,QAAQ;QACR,IAAI;QACJ,KAAI;QACJ,OAAO;YAAE,QAAQ;YAAQ,OAAO;QAAO;;;;;;AAK1C;KAXwB"}},
-    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

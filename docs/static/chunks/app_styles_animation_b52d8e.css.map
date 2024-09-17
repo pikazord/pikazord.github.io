@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["[project]/app/styles/animation.css"],"sourcesContent":[".nav-logo {\n\ttext-shadow: 0px 0px 3.5px #e2e8f0;\n\tanimation: turn-white 1.75s cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n@property --border-gradient-angle {\n\tsyntax: \"<angle>\";\n\tinherits: true;\n\tinitial-value: 0turn;\n}\n\n.glow {\n\t--outer-radius: 0.5rem;\n\t--border-size: 1px;\n\t--inner-radius: calc(var(--outer-radius) - var(--border-size));\n\tbackground-image: conic-gradient(from var(--border-gradient-angle) at 50% 50%, transparent, #5eead4 14%, transparent 17%);\n\tborder-radius: var(--outer-radius);\n\tbackground-size: contain;\n\tpadding: var(--border-size);\n\tanimation-name: buttonBorderSpin;\n\tanimation-play-state: running;\n\tanimation-duration: 9s;\n\tanimation-timing-function: linear;\n\tanimation-iteration-count: infinite;\n\tanimation-direction: normal;\n\tmax-width: 100%;\n}\n\n@keyframes buttonBorderSpin {\n\t0% {\n\t\t--border-gradient-angle: 0turn;\n\t}\n\n\t100% {\n\t\t--border-gradient-angle: 1turn;\n\t}\n}\n\n@keyframes turn-white {\n\t0% {\n\t\ttext-shadow: 0px 0px 0px #e2e8f0;\n\t\tcolor: #94a3b8;\n\t}\n\n\t100% {\n\t\ttext-shadow: 0px 0px 3.5px #e2e8f0;\n\t\tcolor: #e2e8f0;\n\t}\n}"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;AAMA;;;;;;;;;;;;;;;;;AAiBA;;;;;;;;;;AAUA"}},
-    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
