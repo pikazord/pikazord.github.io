@@ -1,19 +1,31 @@
 const menuItems = [
   {
+    label: "Home",
+    href: "/"
+  },
+  {
     label: "Services",
-    href: "#services"
+    href: "/services"
+  },
+  {
+    label: "Work",
+    href: "/works"
+  },
+  {
+    label: "Process",
+    href: "/process"
   },
   {
     label: "About",
-    href: "#about"
+    href: "/about"
   },
   {
-    label: "Contact Us",
-    href: "#contact"
+    label: "Careers",
+    href: "/careers"
   },
   {
     label: "Blog",
-    href: "/blog"
+    href: "/blogs"
   }
 ];
 
