@@ -3,7 +3,7 @@ import Heading from "../components/shared/Heading";
 
 export default function AboutUs() {
   return (
-    <section id="about" className="container mt-16">
+    <section id="about" className=" mt-16">
       <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className=" lg:w-1/2">
           <Heading text="About Us" />

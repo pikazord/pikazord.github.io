@@ -25,7 +25,7 @@ export default function RootLayout({
       <LenisProvider>
         <body className={`${barlow.className} antialiased bg-background text-white selection:bg-primary-60/10 selection:text-primary-60 leading-relaxed`}>
           <Navbar />
-          <div className="mt-[68px] mb-28">{children}</div>
+          <div className="mt-[77px] 2xl:mt-[101px] mb-[540px] md:mb-[560px] lg:mb-[321px] 2xl:mb-[313px] container border-r border-l border-secondary-15">{children}</div>
           <Footer />
         </body>
       </LenisProvider>

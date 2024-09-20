@@ -7,10 +7,10 @@ const menuItems = [
     label: "Services",
     href: "/services"
   },
-  {
-    label: "Work",
-    href: "/works"
-  },
+  // {
+  //   label: "Work",
+  //   href: "/works"
+  // },
   {
     label: "Process",
     href: "/process"
@@ -22,6 +22,10 @@ const menuItems = [
   {
     label: "Careers",
     href: "/careers"
+  },
+  {
+    label: "Contact",
+    href: "/contact"
   },
   {
     label: "Blog",

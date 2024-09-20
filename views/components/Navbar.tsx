@@ -38,12 +38,12 @@ export default function Navbar() {
         <Link href={'/'}>
           <Image src={'/images/pikazord.png'} alt='logo' width={100} height={21} className='w-[118px] 2xl:w-[177px]' />
         </Link>
-        <div className='hidden md:flex gap-1 justify-center items-center'>
+        <div className='hidden lg:flex gap-1 justify-center items-center'>
           {
-            menuItems.map(menuItem => {
+            menuItems.filter(menuItem => !menuItem.label.includes('Contact')).map(menuItem => {
               return (
                 <Link key={menuItem.href} href={menuItem.href} className='text-sm 2xl:text-lg font-semibold'>
-                  <Button variant={'ghost'} className={`px-[24px] py-[16px] ${pathname === menuItem.href ? 'bg-accent' : ''}`}>
+                  <Button variant={'ghost'} className={`px-6 py-4 ${pathname === menuItem.href ? 'bg-accent' : ''}`}>
                     {menuItem.label}
                   </Button>
                 </Link>
@@ -51,7 +51,7 @@ export default function Navbar() {
             })
           }
         </div>
-        <Link href={''} className='hidden md:block'>
+        <Link href={''} className='hidden lg:block'>
           <Button>Contact Us</Button>
         </Link>
       </div>

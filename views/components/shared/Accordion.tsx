@@ -2,9 +2,9 @@
 
 import * as React from "react"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
-import { ChevronDownIcon } from "@radix-ui/react-icons"
 
 import { cn } from "@/lib/utils"
+import { LuPlus } from "react-icons/lu"
 
 const Accordion = AccordionPrimitive.Root
 
@@ -28,13 +28,13 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
+        "flex flex-1 items-center justify-between py-4 text-lg 2xl:text-[22px] font-medium transition-all [&[data-state=open]>svg]:rotate-45 [&[data-state=open]]:text-primary-70",
         className
       )}
       {...props}
     >
       {children}
-      <ChevronDownIcon className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" />
+      <LuPlus className="shrink-0 transition-transform duration-200" />
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ))
@@ -46,7 +46,7 @@ const AccordionContent = React.forwardRef<
 >(({ className, children, ...props }, ref) => (
   <AccordionPrimitive.Content
     ref={ref}
-    className="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+    className="overflow-hidden text-base 2xl:text-lg data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down ml-[84px] 2xl:ml-[92px]"
     {...props}
   >
     <div className={cn("pb-4 pt-0", className)}>{children}</div>

@@ -6,12 +6,6 @@ const config: Config = {
 	theme: {
 		container: {
 			center: true,
-			padding: {
-				DEFAULT: '1rem'
-			}
-		},
-		fontFamily: {
-			nunito: ["Nunito", "sans-serif"]
 		},
 		extend: {
 			colors: {
@@ -68,21 +62,10 @@ const config: Config = {
 				}
 			},
 			animation: {
-				'slide-in-up': 'fadeInSlideUp 1s cubic-bezier(0,0,0,1) forwards',
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
 			},
 			keyframes: {
-				fadeInSlideUp: {
-					'0%': {
-						opacity: '0',
-						transform: 'translateY(1rem)'
-					},
-					'100%': {
-						opacity: '1',
-						transform: 'translateY(0)'
-					}
-				},
 				'accordion-down': {
 					from: {
 						height: '0'
