@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from './shared/Button'
 import { usePathname } from 'next/navigation'
+import { MobileNavbar } from './MobileNavbar'
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -54,6 +55,7 @@ export default function Navbar() {
         <Link href={''} className='hidden lg:block'>
           <Button>Contact Us</Button>
         </Link>
+        <MobileNavbar pathname={pathname} />
       </div>
     </div>
   )
