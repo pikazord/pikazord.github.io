@@ -8,7 +8,7 @@ import { IoMailSharp } from "react-icons/io5";
 
 export default function Footer() {
   return (
-    <div className="fixed bottom-0 w-full bg-background border-t border-secondary-15 px-4 lg:px-0 py-[30px] md:py-10 2xl:py-12 text-base 2xl:text-lg font-medium">
+    <div className=" bottom-0 w-full bg-background border-t border-secondary-15 px-4 lg:px-0 py-[30px] md:py-10 2xl:py-12 text-base 2xl:text-lg font-medium">
       <div className="container">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-5 lg:gap-0 pb-0 lg:pb-10">
           <Link href={'/'}>

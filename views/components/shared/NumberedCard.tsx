@@ -8,7 +8,7 @@ export default function NumberedCard({ index, title, description }: { index: num
 				<p className='text-[80px] md:text-[120px] 2xl:text-[150px] font-semibold leading-none tracking-tighter -my-2.5 md:-my-3 2xl:-my-4'>
 					{index < 10 ? '0' + index : index}
 				</p>
-				<div className='flex w-full h-auto justify-start items-center border-b border-secondary-20'>
+				<div className='flex w-full h-auto justify-start items-center border-b '>
 					<CardTitle className="text-[22px] md:text-[26px] 2xl:text-[38px]">{title}</CardTitle>
 				</div>
 			</CardHeader>

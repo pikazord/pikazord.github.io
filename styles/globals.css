@@ -44,7 +44,6 @@
 		--accent-foreground: 83 100% 50%;
 		--destructive: 0 84.2% 60.2%;
 		--destructive-foreground: 0 0% 15%;
-		--border: 0 0% 15%;
 		--input: 214.3 31.8% 91.4%;
 		--ring: 0 0% 15%;
 		--chart-1: 12 76% 61%;
@@ -60,11 +59,6 @@
 	* {
 		@apply border-border;
 	}
-}
-
-.icon-bg {
-	background: rgb(36, 36, 36);
-	background: linear-gradient(30deg, rgba(36, 36, 36, 0.1) 56%, rgba(158, 255, 0, 0.40) 350%);
 }
 
 .faq-number {

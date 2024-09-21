@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "./shared/Button"
-import { Sheet, SheetContent, SheetTrigger } from "./shared/sheet"
+import { Sheet, SheetContent, SheetTrigger } from "./shared/Sheet"
 import menuItems from "@/config/menuItems"
 import { HiOutlineMenuAlt3 } from "react-icons/hi"
 
