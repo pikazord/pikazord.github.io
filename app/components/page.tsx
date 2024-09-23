@@ -1,5 +1,5 @@
 import { choosingReasons } from "@/public/data";
-import CareerCard from "@/views/careers/components/CareerCard";
+import CareerCard from "@/views/careers/CareerCard";
 import { Button } from "@/views/components/shared/Button";
 import { Checkbox } from "@/views/components/shared/Checkbox";
 import FormFieldWrapper from "@/views/components/shared/FormFieldWrapper";
