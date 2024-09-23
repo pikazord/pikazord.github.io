@@ -46,11 +46,11 @@ export default function Footer() {
           <div className="flex flex-col gap-5 lg:gap-7 lg:flex-row justify-center items-center w-full lg:w-auto">
             <div className="w-full lg:w-auto flex justify-center items-end border-b border-secondary-15 pb-5 lg:pb-4 gap-2">
               <IoMailSharp className="text-primary" size={22} />
-              <p>pikazord@gmail.com</p>
+              <p><Link href={"mailto:pikazord@gmail.com"} target="_blank">pikazord@gmail.com</Link></p>
             </div>
             <div className="w-full lg:w-auto flex justify-center items-end border-b border-secondary-15 pb-5 lg:pb-4 gap-2">
               <FaPhone className="text-primary" size={22} />
-              <p>+8801970851626</p>
+              <p><Link href={"https://wa.me/8801970851626"} target="_blank">+8801970851626</Link></p>
             </div>
             <div className="w-full lg:w-auto flex justify-center items-end border-b border-secondary-15 pb-5 lg:pb-4 gap-2">
               <FaLocationDot className="text-primary" size={22} />

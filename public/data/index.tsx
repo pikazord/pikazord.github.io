@@ -44,76 +44,6 @@ import Zapier from "../tech/Zapier.svg"
 
 export const services = [
 	{
-		title: "Design",
-		description: "At Pikazord, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences.",
-		icon: <Design />,
-		categories: [
-			{
-				title: "User Experience (UX) Design",
-				services: [
-					{
-						icon: <UserResearch />,
-						description: "User Research and Persona Development",
-					},
-					{
-						icon: <InformationArchitecture />,
-						description: "Information Architecture and Wireframing",
-					},
-					{
-						icon: <InteractiveProto />,
-						description: "Interactive Prototyping and User Testing",
-					},
-					{
-						icon: <UIDesign />,
-						description: "UI Design and Visual Branding",
-					},
-				]
-			},
-			{
-				title: "User Interface (UI) Design",
-				services: [
-					{
-						icon: <Intuitive />,
-						description: "Intuitive and Visually Appealing Interface Design",
-					},
-					{
-						icon: <Iconography />,
-						description: "Custom Iconography and Illustration",
-					},
-					{
-						icon: <Typography />,
-						description: "Typography and Color Palette Selectiong",
-					},
-					{
-						icon: <Responsive />,
-						description: "Responsive Design for Various Devices",
-					},
-				]
-			},
-			{
-				title: "Branding and Identity",
-				services: [
-					{
-						icon: <LogoDesign />,
-						description: "Logo Design and Visual Identity Development",
-					},
-					{
-						icon: <BrandStrategy />,
-						description: "Brand Strategy and Positioning",
-					},
-					{
-						icon: <BrandGuide />,
-						description: "Brand Guidelines and Style Guides",
-					},
-					{
-						icon: <MarketingDesign />,
-						description: "Marketing Collateral Design (Brochures, Business Cards, etc.)",
-					},
-				]
-			},
-		]
-	},
-	{
 		title: "Engineering",
 		description: "Our engineering team combines technical expertise with a passion for innovation to build robust and scalable digital solutions. We leverage the latest technologies and best practices to deliver high-performance applications tailored to your specific needs.",
 		icon: <Engineering />,
@@ -178,6 +108,76 @@ export const services = [
 					{
 						icon: <CMS />,
 						description: "Automation Solutions for Process Optimization and Efficiency",
+					},
+				]
+			},
+		]
+	},
+	{
+		title: "Design",
+		description: "At Pikazord, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences.",
+		icon: <Design />,
+		categories: [
+			{
+				title: "User Experience (UX) Design",
+				services: [
+					{
+						icon: <UserResearch />,
+						description: "User Research and Persona Development",
+					},
+					{
+						icon: <InformationArchitecture />,
+						description: "Information Architecture and Wireframing",
+					},
+					{
+						icon: <InteractiveProto />,
+						description: "Interactive Prototyping and User Testing",
+					},
+					{
+						icon: <UIDesign />,
+						description: "UI Design and Visual Branding",
+					},
+				]
+			},
+			{
+				title: "User Interface (UI) Design",
+				services: [
+					{
+						icon: <Intuitive />,
+						description: "Intuitive and Visually Appealing Interface Design",
+					},
+					{
+						icon: <Iconography />,
+						description: "Custom Iconography and Illustration",
+					},
+					{
+						icon: <Typography />,
+						description: "Typography and Color Palette Selectiong",
+					},
+					{
+						icon: <Responsive />,
+						description: "Responsive Design for Various Devices",
+					},
+				]
+			},
+			{
+				title: "Branding and Identity",
+				services: [
+					{
+						icon: <LogoDesign />,
+						description: "Logo Design and Visual Identity Development",
+					},
+					{
+						icon: <BrandStrategy />,
+						description: "Brand Strategy and Positioning",
+					},
+					{
+						icon: <BrandGuide />,
+						description: "Brand Guidelines and Style Guides",
+					},
+					{
+						icon: <MarketingDesign />,
+						description: "Marketing Collateral Design (Brochures, Business Cards, etc.)",
 					},
 				]
 			},
