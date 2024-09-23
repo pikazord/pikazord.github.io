@@ -52,7 +52,7 @@ export default function Navbar() {
             })
           }
         </div>
-        <Link href={''} className='hidden lg:block'>
+        <Link href={'/contact'} className='hidden lg:block'>
           <Button>Contact Us</Button>
         </Link>
         <MobileNavbar pathname={pathname} />
