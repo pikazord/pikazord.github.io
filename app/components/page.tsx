@@ -11,11 +11,12 @@ import SocialIcon from "@/views/components/shared/SocialIcon";
 import { Textarea } from "@/views/components/shared/Textarea";
 import ExperienceCard from "@/views/home/components/ExperienceCard";
 import ServiceCard from "@/views/home/components/ServiceCard";
-import ServiceDescriptionCard from "@/views/services/components/ServiceDescriptionCard";
+import ServiceDescriptionCard from "@/views/services/ServiceDescriptionCard";
 import React from "react";
 import { BiBrush } from "react-icons/bi";
 import { LuFacebook } from "react-icons/lu";
 import Faq from "@/views/components/Faq";
+import ContactUs from "@/views/components/ContactUs";
 
 export default function page() {
   return <div className="">
@@ -66,11 +67,13 @@ export default function page() {
     <Button variant={"link"} >Link</Button>
     <SocialIcon icon={<LuFacebook />} />
     <p>About Us Pic</p>
-    <div className="relative w-96 h-96 rounded-2xl overflow-hidden">
-      <img src="/images/about-bg.png" alt="" className="absolute w-full h-full -z-20 opacity-80 object-fill" />
+    <div className="relative h-[337px] md:h-[483px] 2xl:h-[530px] rounded-2xl overflow-hidden">
+      <img src="/images/about-bg.png" alt="" className="absolute w-full h-full -z-20 opacity-80 object-cover" />
       <img src="/images/about.png" alt="" className="absolute w-full h-full -z-10" />
     </div>
     <p>Heading</p>
     <Heading tagline="Our design services include:" title="Design" description="At Pikazord, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences. " />
+    <p>contact us</p>
+    <ContactUs />
   </div>;
 }

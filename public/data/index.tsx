@@ -40,6 +40,7 @@ import Expertise from "../icons/Expertise.svg"
 import ClientCentric from "../icons/ClientCentric.svg"
 import Collaborative from "../icons/Collaborative.svg"
 import ResultDriven from "../icons/ResultDriven.svg"
+import Zapier from "../tech/Zapier.svg"
 
 export const services = [
 	{
@@ -324,10 +325,6 @@ export const ourStory = [
 		description: "Meanwhile, a team of brilliant engineers was busy crafting the backbone of digital innovation. With their expertise in coding and development, they founded the engineering division of Pikazord. They believed that technology had the power to transform ideas into reality. Their mission was to build robust, scalable, and cutting-edge digital solutions that would push the boundaries of what was possible."
 	},
 	{
-		title: "Design",
-		description: "Our expert designers translate the project requirements into captivating visual designs. We create wireframes, mockups, and interactive prototypes to showcase the user interface, user experience, and overall design aesthetics. We iterate on the designs based on your feedback until we achieve the perfect look and feel."
-	},
-	{
 		title: "Project Management",
 		description: "In the midst of the creative and technical minds, a group of project managers emerged as the glue that held everything together. They understood the importance of effective communication, organization, and efficient execution. With their skills in planning and coordination, they founded Pikazord's project management team. Their mission was to ensure that every project ran smoothly, on time, and within budget."
 	},
@@ -397,4 +394,25 @@ export const FAQ = [
 		"question": "Can you help with website or app maintenance and updates?",
 		"answer": "Yes, Pikazord provides ongoing maintenance and updates for websites and apps. Whether it's fixing bugs, improving performance, or adding new features, we ensure your digital products continue to evolve and meet changing business demands."
 	}
+]
+
+export const technologies = [
+	{
+		icon: <Zapier />
+	},
+	{
+		icon: <Zapier />
+	},
+	{
+		icon: <Zapier />
+	},
+	{
+		icon: <Zapier />
+	},
+	{
+		icon: <Zapier />
+	},
+	{
+		icon: <Zapier />
+	},
 ]

@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function ServiceCard({ title, description, icon }: { title: string, description: string, icon: React.ReactNode }) {
 	return (
-		<Card className="p-[30px] md:p-[40px] 2xl:p-[50px]">
+		<Card className="p-[30px] md:p-[40px] 2xl:p-[50px] justify-between">
 			<CardHeader className='flex-row md:flex-col items-center md:items-start justify-start md:justify-normal md:space-y-0 space-x-4 md:space-x-0'>
 				<Icon icon={icon} className="max-w-max md:mb-4" />
 				<CardTitle className="text-xl md:text-2xl 2xl:text-3xl">{title}</CardTitle>
