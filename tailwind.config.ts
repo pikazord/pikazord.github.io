@@ -63,7 +63,8 @@ const config: Config = {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				marquee: 'marquee 23s linear infinite',
 			},
 			keyframes: {
 				'accordion-down': {
@@ -81,7 +82,15 @@ const config: Config = {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				marquee: {
+					from: {
+						transform: 'translateX(100%)',
+					},
+					to: {
+						transform: 'translateX(-100%)',
+					},
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from '../components/shared/Button'
 import Link from 'next/link'
 import { technologies } from '@/public/data'
+import Image from 'next/image'
 
 export default function Banner() {
 	return (
@@ -20,8 +21,10 @@ export default function Banner() {
 			</div>
 			<div className='relative sm:pt-10 sm:border-r sm:border-l'>
 				<div className='hidden sm:block sm:absolute -top-[26px] sm:-top-[31px] left-[200px] sm:left-[35%] md:left-[35%] lg:left-[39%] xl:-top-[38px] xl:left-[42%] bg-background rounded-full border 2xl:px-[34px] px-[24px] py-[14px] 2xl:py-[20px] font-medium text-sm md:text-lg max-w-max'><p>Technologies  we work on</p></div>
-				<div className={`grid grid-cols-2 sm:grid-cols-none sm:flex sm:flex-wrap justify-center xl:justify-evenly items-center sm:gap-[20px]`}>
-					{technologies.map((technology, index) => <div className='px-[30px] 2xl:px-[40px] py-[30px] md:py-[16px] 2xl:py-[20px] border-l border-r border-b sm:border-0 flex justify-center items-center sm:flex-none' key={index}>{technology.icon}</div>)}
+				<div className='overflow-auto '>
+					<div className={`flex gap-5  w-full justify-between`}>
+						{technologies.map((technology, index) => <Image key={index} src={technology.path} height={60} width={75} alt='' className='py-[30px]'></Image>)}
+					</div>
 				</div>
 			</div>
 		</>

@@ -40,7 +40,21 @@ import Expertise from "../icons/Expertise.svg"
 import ClientCentric from "../icons/ClientCentric.svg"
 import Collaborative from "../icons/Collaborative.svg"
 import ResultDriven from "../icons/ResultDriven.svg"
-import Zapier from "../tech/Zapier.svg"
+import BlockChain from "../tech/BlockChain.svg"
+import Flutter from "../tech/Flutter.svg"
+import Mongo from "../tech/Mongo.svg"
+import Node from "../tech/Node.svg"
+import Next from "../tech/Next.svg"
+import Postgre from "../tech/Postgre.svg"
+import Puppeteer from "../tech/Puppeteer.svg"
+import Selenium from "../tech/Selenium.svg"
+import SQL from "../tech/SQL.svg"
+import Vue from "../tech/Vue.svg"
+import Go from "../tech/Go.svg"
+import DotNet from "../tech/DotNet.svg"
+import ReactIcon from "../tech/React.svg"
+import Tailwind from "../tech/Tailwind.svg"
+
 
 export const services = [
 	{
@@ -398,21 +412,59 @@ export const FAQ = [
 
 export const technologies = [
 	{
-		icon: <Zapier />
+		icon: <ReactIcon />,
+		path: "./tech/React.svg"
 	},
 	{
-		icon: <Zapier />
+		icon: <Next />,
+		path: "./tech/Next.svg"
 	},
 	{
-		icon: <Zapier />
+		icon: <Vue />,
+		path: "./tech/Vue.svg"
 	},
 	{
-		icon: <Zapier />
+		icon: <Tailwind />,
+		path: "./tech/Tailwind.svg"
 	},
 	{
-		icon: <Zapier />
+		icon: <Node />,
+		path: "./tech/Node.svg"
 	},
 	{
-		icon: <Zapier />
+		icon: <Go />,
+		path: "./tech/Go.svg"
+	},
+	{
+		icon: <DotNet />,
+		path: "./tech/DotNet.svg"
+	},
+	{
+		icon: <Mongo />,
+		path: "./tech/Mongo.svg"
+	},
+	{
+		icon: <Postgre />,
+		path: "./tech/Postgre.svg"
+	},
+	{
+		icon: <SQL />,
+		path: "./tech/SQL.svg"
+	},
+	{
+		icon: <Flutter />,
+		path: "./tech/Flutter.svg"
+	},
+	{
+		icon: <Puppeteer />,
+		path: "./tech/Puppeteer.svg"
+	},
+	{
+		icon: <Selenium />,
+		path: "./tech/Selenium.svg"
+	},
+	{
+		icon: <BlockChain />,
+		path: "./tech/BlockChain.svg"
 	},
 ]
