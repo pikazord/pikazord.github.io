@@ -6,6 +6,7 @@ import Navbar from "../views/components/Navbar";
 import Footer from "../views/components/Footer";
 import localFont from "next/font/local";
 import LenisProvider from "@/providers/LenisProvider";
+import { Toaster } from "@/views/components/shared/toaster";
 
 
 const barlow = localFont({ src: "../public/fonts/Barlow-Regular.ttf" });
@@ -25,8 +26,9 @@ export default function RootLayout({
       <LenisProvider>
         <body className={`${barlow.className} antialiased bg-background text-white selection:bg-primary-60/10 selection:text-primary-60 leading-relaxed`}>
           <Navbar />
-          <div className="mt-[63px] lg:mt-[77px] 2xl:mt-[101px] container">{children}</div>
+          <main className="mt-[63px] lg:mt-[77px] 2xl:mt-[101px] container">{children}</main>
           <Footer />
+          <Toaster />
         </body>
       </LenisProvider>
     </html>

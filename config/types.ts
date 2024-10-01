@@ -14,7 +14,7 @@ export interface EmailFrom {
 }
 
 export interface MailOptions {
-	from: EmailFrom;
+	from?: EmailFrom;
 	to?: string;
 	subject: string;
 	text?: string;

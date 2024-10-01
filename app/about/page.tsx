@@ -13,7 +13,7 @@ export default function page() {
     <div className="flex flex-col lg:flex-row justify-center items-center w-full px-4 md:px-10 xl:px-[100px] py-10 lg:py-20 gap-[30px] lg:gap-[100px]">
       <div className="lg:w-1/2">
         <h3 className="text-[28px] md:text-[38px] 2xl:text-[48px] text-nowrap font-semibold">About Pikazord</h3>
-        <p className="text-sm md:text-base 2xl:text-[20px]">{aboutUs}</p>
+        <p className="text-sm md:text-base 2xl:text-xl">{aboutUs}</p>
       </div>
       <div className="relative w-full lg:w-1/2 h-[337px] md:h-[483px] 2xl:h-[530px] rounded-2xl overflow-hidden">
         <img src="/images/about-bg.png" alt="" className="absolute w-full h-full -z-20 opacity-80 object-cover" />

@@ -33,7 +33,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className={`fixed top-0 w-full z-[99] py-3 2xl:py-5 border-b ${isScrolled ? 'bg-background/30 backdrop-blur-md' : 'bg-background'
+    <div className={`fixed top-0 w-full z-[99] py-3 2xl:py-5 border-b px-2 sm:px-0 ${isScrolled ? 'bg-background/30 backdrop-blur-md' : 'bg-background'
       } transition-all duration-300`}>
       <div className='container flex justify-between items-center'>
         <Link href={'/'}>
