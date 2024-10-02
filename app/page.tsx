@@ -1,17 +1,17 @@
-import Image from "next/image";
+import ContactUs from "@/views/components/ContactUs";
+import Faq from "@/views/components/Faq";
+import Banner from "@/views/home/Banner";
+import Choose from "@/views/home/Choose";
+import Services from "@/views/home/Services";
 
-export default function Home() {
+export default function page() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center justify-center">
-        <Image
-          src="images/pikachu.jpg"
-          alt="Pikachu"
-          width="600"
-          height="600"
-        />
-        <p className="text-3xl text-center">We are coming soon!</p>
-      </main>
-    </div>
+    <>
+      <Banner />
+      <Services />
+      <Choose />
+      <Faq />
+      <ContactUs />
+    </>
   );
 }

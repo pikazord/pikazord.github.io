@@ -1,0 +1,16 @@
+.icon {
+	background: rgb(36, 36, 36);
+	background: linear-gradient(30deg, rgba(36, 36, 36, 0.1) 56%, rgba(158, 255, 0, 0.40) 350%);
+}
+
+/* .icon>svg {
+	height: 24px;
+	width: 24px;
+}
+
+@media(min-width: 1536px) {
+	.icon>svg {
+		height: 40px;
+		width: 40px;
+	}
+} */
